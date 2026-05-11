@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MessMaster - Smart Meal Management</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-slate-50 font-sans">
+
+    <nav class="flex items-center justify-between px-10 py-5 bg-white shadow-sm sticky top-0 z-50">
+        <div class="flex items-center gap-2">
+            <div class="bg-emerald-600 p-2 rounded-lg">
+                <i class="fas fa-utensils text-white text-xl"></i>
+            </div>
+            <span class="text-2xl font-bold text-slate-800">Mess<span class="text-emerald-600">Master</span></span>
+        </div>
+        <div class="hidden md:flex gap-8 text-slate-600 font-medium">
+            <a href="#" class="hover:text-emerald-600 transition">Home</a>
+            <a href="#" class="hover:text-emerald-600 transition">About</a>
+            <a href="#" class="hover:text-emerald-600 transition">Menu</a>
+            <a href="#" class="hover:text-emerald-600 transition">Features</a>
+            <a href="https://www.geckishanganj.org/" class="hover:text-emerald-600 transition">Visit GECK</a>
+        </div>
+        <div class="flex gap-4">
+            <button class="px-6 py-2 text-emerald-600 font-semibold hover:bg-emerald-50 rounded-full transition">Login</button>
+            <button class="px-6 py-2 bg-emerald-600 text-white font-semibold rounded-full hover:bg-emerald-700 shadow-md transition">Register Now</button>
+        </div>
+    </nav>
+
+    <header class="container mx-auto px-6 py-16 flex flex-col lg:flex-row items-center gap-12">
+        <div class="lg:w-1/2">
+            <h1 class="text-5xl lg:text-6xl font-extrabold text-slate-900 leading-tight">
+                Digital Mess, <br><span class="text-emerald-600">Smart Solutions.</span>
+            </h1>
+            <p class="mt-6 text-lg text-slate-600 leading-relaxed">
+                "Manage your mess records at your fingertips. Apply for leave, calculate meal charges, and ensure 100% transparency in every transaction."
+            </p>
+            
+            <div class="mt-10 flex flex-wrap gap-4">
+                <button class="flex items-center gap-2 px-8 py-4 bg-emerald-600 text-white rounded-xl font-bold hover:bg-emerald-700 transition shadow-lg">
+                    <i class="fas fa-user-grad"></i> Student Portal
+                </button>
+                <button class="px-6 py-2 bg-emerald-600 text-white font-semibold rounded-full hover:bg-emerald-700 shadow-md transition">Admin login</button>
+                </button>
+            </div>
+
+            <div class="mt-12 p-6 bg-white rounded-2xl shadow-xl border border-slate-100 flex justify-around items-center">
+                <div class="text-center">
+                    <p class="text-3xl font-bold text-slate-800">XYZ+</p>
+                    <p class="text-sm text-slate-500 font-medium">Active Students</p>
+                </div>
+                <div class="h-10 w-[1px] bg-slate-200"></div>
+                <div class="text-center">
+                    <p class="text-3xl font-bold text-slate-800">PQRS+</p>
+                    <p class="text-sm text-slate-500 font-medium">Leaves Processed</p>
+                </div>
+                <div class="h-10 w-[1px] bg-slate-200"></div>
+                <div class="text-center">
+                    <p class="text-3xl font-bold text-emerald-600">100%</p>
+                    <p class="text-sm text-slate-500 font-medium">Trust Factor</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="lg:w-1/2 relative">
+            <div class="w-full h-[400px] bg-emerald-100 rounded-[2rem] overflow-hidden relative shadow-2xl">
+                <div class="absolute inset-0 flex items-center justify-center text-emerald-300">
+                    <i class="fas fa-users text-[10rem]"></i>
+                </div>
+                
+                <div class="absolute top-10 right-10 bg-white p-4 rounded-xl shadow-lg border border-emerald-50 w-48 animate-bounce-slow">
+                    <h4 class="font-bold text-slate-800 border-b pb-2 mb-2">Today's Menu</h4>
+                    <ul class="text-sm text-slate-600 space-y-1">
+                        <li>• Paneer mosquito Masala</li>
+                        <li>• Mosquito with Rice & Dal</li>
+                        <li>• Rukha Sukha Roti</li>
+                        <li>• Sara huaa Salad</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-white py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-slate-900">Our Speciality(Features)</h2>
+            <p class="text-slate-500 mt-2">Managing mess was never this easy</p>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-16 text-left">
+                <div class="p-8 bg-slate-50 rounded-2xl hover:bg-emerald-600 group transition-all duration-300">
+                    <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-lg flex items-center justify-center mb-6 group-hover:bg-white/20 group-hover:text-white">
+                        <i class="fas fa-calendar-check text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 group-hover:text-white">Easy Leave</h3>
+                    <p class="text-slate-600 group-hover:text-emerald-50">"Apply for leave and track your records with just a single click."(Sirf ek click mein leave apply karein aur record track karein.)</p>
+                </div>
+
+                <div class="p-8 bg-slate-50 rounded-2xl hover:bg-emerald-600 group transition-all duration-300">
+                    <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-lg flex items-center justify-center mb-6 group-hover:bg-white/20 group-hover:text-white">
+                        <i class="fas fa-eye text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 group-hover:text-white">Full Transparency</h3>
+                    <p class="text-slate-600 group-hover:text-emerald-50">"View all approved leaves and meal calculations in real-time."(Sabhi approved leaves aur calculations sabke liye visible hain))</p>
+                </div>
+
+                <div class="p-8 bg-slate-50 rounded-2xl hover:bg-emerald-600 group transition-all duration-300">
+                    <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-lg flex items-center justify-center mb-6 group-hover:bg-white/20 group-hover:text-white">
+                        <i class="fas fa-calculator text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 group-hover:text-white">Automatic Billing</h3>
+                    <p class="text-slate-600 group-hover:text-emerald-50">"The system automatically calculates meal charges after deducting approved leaves."(System khud meal charges calculate karta hai leaves katne ke baad.)</p>
+                </div>
+
+                <div class="p-8 bg-slate-50 rounded-2xl hover:bg-emerald-600 group transition-all duration-300">
+                    <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-lg flex items-center justify-center mb-6 group-hover:bg-white/20 group-hover:text-white">
+                        <i class="fas fa-receipt text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 group-hover:text-white">Digital Receipts</h3>
+                    <p class="text-slate-600 group-hover:text-emerald-50">Paper-less payments aur automatic digital receipts payein.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        @keyframes bounce-slow {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .animate-bounce-slow {
+            animation: bounce-slow 3s infinite;
+        }
+    </style>
+</body>
+</html>
